@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ScamSpam/1.0.0": {
+        "dependencies": {
+          "Goblinfactory.Konsole": "6.2.1",
+          "RandomFriendlyNameGenerator": "1.0.7",
+          "RestSharp": "106.11.7"
+        },
+        "runtime": {
+          "ScamSpam.dll": {}
+        }
+      },
+      "Goblinfactory.Konsole/6.2.1": {
+        "runtime": {
+          "lib/netstandard2.0/Goblinfactory.Konsole.dll": {
+            "assemblyVersion": "6.2.1.0",
+            "fileVersion": "6.2.1.0"
+          }
+        }
+      },
+      "RandomFriendlyNameGenerator/1.0.7": {
+        "runtime": {
+          "lib/netstandard2.0/RandomFriendlyNameGenerator.dll": {
+            "assemblyVersion": "1.0.7.0",
+            "fileVersion": "1.0.7.0"
+          }
+        }
+      },
+      "RestSharp/106.11.7": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.11.7.0",
+            "fileVersion": "106.11.7.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ScamSpam/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Goblinfactory.Konsole/6.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JLZvUzOIC+zM8/Q5rwF1MHBvPk7+q2nqi+7XE7BHNHpTz7aOLaDl9wR02x4VOlvYQdzKWQUGdP23gfLHoCfxSg==",
+      "path": "goblinfactory.konsole/6.2.1",
+      "hashPath": "goblinfactory.konsole.6.2.1.nupkg.sha512"
+    },
+    "RandomFriendlyNameGenerator/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wCQQnvgbokuDEUZcu7KPlEfUPjXBDBfMyMFOrsZ8IN+ebtjkDpKCGq0k6YO2dNkp2AfQSUz5qNJv3ZGRb0wSoQ==",
+      "path": "randomfriendlynamegenerator/1.0.7",
+      "hashPath": "randomfriendlynamegenerator.1.0.7.nupkg.sha512"
+    },
+    "RestSharp/106.11.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
+      "path": "restsharp/106.11.7",
+      "hashPath": "restsharp.106.11.7.nupkg.sha512"
+    }
+  }
+}
