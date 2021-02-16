@@ -11,17 +11,19 @@ namespace ScamSpam
     {
         static void Main(string[] args)
         {
-            int a = 1;
+            var client = new RestClient("https://freeinternetnow.com/acesofacebook.php?api=1&lan=fbnormal&ht=1&counter0=trabajador2");
+
+            int counter = 1;
             Parallel.For(1, 1000000000, new ParallelOptions { MaxDegreeOfParallelism = -1 }, (i, state) =>
             {
 
                 String name = NameGenerator.PersonNames.Get();
 
                 Console.WriteLine("---=====---");
-                Console.WriteLine($"Name: {name} \nNumber: {a}");
+                Console.WriteLine($"Name: {name} \nNumber: {counter}");
                 Console.WriteLine("---=====---");
 
-                var client = new RestClient("https://freeinternetnow.com/acesofacebook.php?api=1&lan=fbnormal&ht=1&counter0=trabajador2");
+                
                 client.Timeout = -1;
                 var request = new RestRequest(Method.POST);
                 request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
@@ -64,7 +66,7 @@ namespace ScamSpam
                 IRestResponse response = client.Execute(request);
                 Console.WriteLine(response.Content);
                 i++;
-                a++;
+                Interlocked.Increment(ref counter);
                 //Thread.Sleep((int)(1000 * 60 * 0.2));
             });
 
