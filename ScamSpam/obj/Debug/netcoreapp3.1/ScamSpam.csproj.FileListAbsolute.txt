@@ -1,0 +1,16 @@
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\bin\Debug\netcoreapp3.1\ScamSpam.exe
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\obj\Debug\netcoreapp3.1\ScamSpam.csprojAssemblyReference.cache
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\obj\Debug\netcoreapp3.1\ScamSpam.AssemblyInfoInputs.cache
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\obj\Debug\netcoreapp3.1\ScamSpam.AssemblyInfo.cs
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\bin\Debug\netcoreapp3.1\ScamSpam.deps.json
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\bin\Debug\netcoreapp3.1\ScamSpam.runtimeconfig.json
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\bin\Debug\netcoreapp3.1\ScamSpam.runtimeconfig.dev.json
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\bin\Debug\netcoreapp3.1\ScamSpam.dll
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\bin\Debug\netcoreapp3.1\ScamSpam.pdb
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\obj\Debug\netcoreapp3.1\ScamSpam.csproj.CopyComplete
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\obj\Debug\netcoreapp3.1\ScamSpam.dll
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\obj\Debug\netcoreapp3.1\ScamSpam.pdb
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\obj\Debug\netcoreapp3.1\ScamSpam.genruntimeconfig.cache
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\bin\Debug\netcoreapp3.1\RandomFriendlyNameGenerator.dll
+C:\Users\jespe\source\repos\ScamSpam\ScamSpam\obj\Debug\netcoreapp3.1\ScamSpam.csproj.CoreCompileInputs.cache

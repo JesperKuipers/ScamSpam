@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RandomFriendlyNameGenerator/1.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RandomFriendlyNameGenerator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RandomFriendlyNameGenerator.dll": {}
+        }
+      },
+      "RestSharp/106.11.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RandomFriendlyNameGenerator/1.0.7": {
+      "sha512": "wCQQnvgbokuDEUZcu7KPlEfUPjXBDBfMyMFOrsZ8IN+ebtjkDpKCGq0k6YO2dNkp2AfQSUz5qNJv3ZGRb0wSoQ==",
+      "type": "package",
+      "path": "randomfriendlynamegenerator/1.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/RandomFriendlyNameGenerator.dll",
+        "lib/net45/RandomFriendlyNameGenerator.xml",
+        "lib/netstandard1.3/RandomFriendlyNameGenerator.dll",
+        "lib/netstandard1.3/RandomFriendlyNameGenerator.xml",
+        "lib/netstandard2.0/RandomFriendlyNameGenerator.dll",
+        "lib/netstandard2.0/RandomFriendlyNameGenerator.xml",
+        "randomfriendlynamegenerator.1.0.7.nupkg.sha512",
+        "randomfriendlynamegenerator.nuspec"
+      ]
+    },
+    "RestSharp/106.11.7": {
+      "sha512": "NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
+      "type": "package",
+      "path": "restsharp/106.11.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.106.11.7.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "RandomFriendlyNameGenerator >= 1.0.7",
+      "RestSharp >= 106.11.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jespe\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jespe\\source\\repos\\ScamSpam\\ScamSpam\\ScamSpam.csproj",
+      "projectName": "ScamSpam",
+      "projectPath": "C:\\Users\\jespe\\source\\repos\\ScamSpam\\ScamSpam\\ScamSpam.csproj",
+      "packagesPath": "C:\\Users\\jespe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jespe\\source\\repos\\ScamSpam\\ScamSpam\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jespe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "RandomFriendlyNameGenerator": {
+            "target": "Package",
+            "version": "[1.0.7, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[106.11.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
