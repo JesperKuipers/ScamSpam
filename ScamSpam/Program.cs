@@ -55,7 +55,7 @@ namespace ScamSpam
             {
                 while (!finished)
                 {
-                    Thread.Sleep(r.Next(20000));
+                    Thread.Sleep(r.Next(2000));
                 }
             });
 
@@ -109,7 +109,7 @@ namespace ScamSpam
                         i++;
                         Interlocked.Increment(ref counter);
                         //WriteAttackCount();
-                        //Thread.Sleep((int)(1000 * 60 * 0.2));
+                        Thread.Sleep(10000);
 
                         //namesCon.Write($" {name}");
                         namesCon.Write(color, $"  {response.Content}");
